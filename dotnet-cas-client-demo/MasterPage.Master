@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="dotnet_cas_client_demo.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>dotnet-cas-client-demo</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <form runat="server">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+</body>
+</html>
