@@ -6,7 +6,7 @@
 		<li><a href="/index.aspx">Call the /index.aspx page</a></li>
 		<li class="active"><a href="/secure/index.aspx">You are on the /secure/index.aspx page</a></li>
 		<!-- #### change with your own CAS in the cloud server and your host name #### -->
-		<li><a href="https://freeuse1.casinthecloud.com/leleujgithub/logout?service=http://localhost:55507">Call the CAS logout</a></li>
+		<li><a href="http://localhost:8888/cas/logout?service=http://localhost:55507">Call the CAS logout</a></li>
 	</ul>
 	<h3>
         <p>username: <span id="username" runat="server" /></p>
