@@ -5,7 +5,7 @@
    	<ul class="nav nav-tabs">
 		<li class="active"><a href="/index.aspx">You are on the /index.aspx page</a></li>
 		<li><a href="/secure/index.aspx">Call the /secure/index.aspx page</a></li>
-		<!-- #### change with your own CAS in the cloud server and your host name #### -->
+		<!-- #### change with your own CAS server and your host name #### -->
 		<li><a href="http://localhost:8888/cas/logout?service=http://localhost:55507">Call the CAS logout</a></li>
 	</ul>
 	<h3>
